@@ -33,7 +33,7 @@ export default {
           (post) => post.user_id !== currentUser.id && post.can_accept_answer
         )
       ) {
-        component.set("show", true);
+        component.set("show", false);
       }
     }, 2000);
   },

@@ -1,6 +1,8 @@
-{{#if show}}
-  {{#topic-navigation-popup}}
-    <h3>{{i18n "solved.no_answer.title"}}</h3>
-    <p>{{i18n "solved.no_answer.description"}}</p>
-  {{/topic-navigation-popup}}
+{{#if !component.siteSettings.disable_solved_education_message }}
+  {{#if show}}
+    {{#topic-navigation-popup}}
+      <h3>{{i18n "solved.no_answer.title"}}</h3>
+      <p>{{i18n "solved.no_answer.description"}}</p>
+    {{/topic-navigation-popup}}
+  {{/if}}
 {{/if}}

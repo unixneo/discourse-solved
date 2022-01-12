@@ -2,9 +2,9 @@
 
 # name: discourse-solved
 # about: Add a solved button to answers on Discourse
-# version: 0.1
-# authors: Sam Saffron
-# url: https://github.com/discourse/discourse-solved
+# version: 0.11
+# authors: Sam Saffron, Neo
+# url: https://github.com/unixneo/discourse-solved
 
 enabled_site_setting :solved_enabled
 
